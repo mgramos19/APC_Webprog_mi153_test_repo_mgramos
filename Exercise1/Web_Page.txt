@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body background="tumblr_nrew4mzLTb1s595b5o1_500.jpg">
+<head>
+<title>Page Title</title>
+</head>
+
+<body bgcolor="#ffe8cc">
+
+<h1 style="color:White;"><h1 style="font-size:90%;"><h1 style="font-family:Times New Roman;"><h1 style="text-
+
+align:center;">My First Home Page</h1>
+
+<p style="color:Black;"><p style="font-size:120%;"><p style="font-family:Bell MT;"><p style="text-align:center;"> 
+
+Melissa Beatriz G. Ramos/Bea</p>
+
+<p style= "color:black;"><div style="font-size:115%";"><p2 style="font=family:Bell MT;"> HOBBIES: during my free 
+
+time I would always want to baked,
+I have tried different flavors of cupcake, also other desserts. Petty much obvious that I love sweets.and 
+the other thing that I love to do during free time is I watch movie/tv series online, or reading some novel 
+books my favorite one is a love story the title is P.S. I Love You, I also 
+love watching some history Documentaries or movies I love knowing what was it like years ago 
+upto now how is it so different from the generation and know the people who made a big impact in todays 
+
+generation.</p>
+
+<table align="center">
+<tr>
+
+<td><img src="profile_.jpg" alt="personal pic" style="width:231px;height:231px; align="middle">
+<td><img src="cupcake_.jpg" alt="sweet" style="width:250px;height:186px;">
+</tr>
+</table>
+<br>
+<p2 style="color:black;"><p2 style="font-size:120%;"><p2 style="font-family:Bell MT;"> 
+Websites that I love to visit:<br></p2>
+
+<table border = "1" cellpadding="5" cellspacing="1" width="250" height="50">
+<tr>
+<td><center><a href="http://www.Facebook.com " target="_blank">Facebook Website</a></td>
+</tr>
+<tr>
+<td><center><a href="http://www.Twitter.com " target="_blank">Twitter Website</a></br></td>
+</tr>
+<tr>
+<td><center><a href="http://www.Tumblr.com " target="_blank">Tumblr Website</a></td>
+</tr>
+</table>
+
+</body>
+</html>
