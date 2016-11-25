@@ -104,6 +104,7 @@
 							
 								<input type="text" name="city_name" placeholder="City place" value="<?php echo $fetched_row['user_city']; ?>" /></br></br>
 	
+	                            
 							<table align="center">
 								<td>								
 								<button type="submit" name="btn-update"><strong>UPDATE</strong></button>
