@@ -6,7 +6,7 @@ if(isset($_POST['btn-save']))
  // variables for input data
  $first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
- $city_name= $_POST['city_name'];
+ $city_name = $_POST['city_name'];
  $email_add = $_POST['email_add'];
  $age       = $_POST['age'];
  $gender    = $_POST['gender'];
@@ -15,7 +15,7 @@ if(isset($_POST['btn-save']))
  
  // sql query for inserting data into database
  
-        $sql_query = "INSERT INTO users(first_name,last_name,user_city,email_add,age,gender,nick_name) VALUES('$first_name','$last_name','$city_name','$email_add','$age','$gender','$nick_name')";
+        $sql_query = "INSERT INTO users(first_name,last_name,user_city,email_add,gender,nick_name) VALUES('$first_name','$last_name','$city_name','$email_add','$gender','$nick_name')";
  mysqli_query($con,$sql_query);
         
         // sql query for inserting data into database
@@ -64,9 +64,6 @@ if(isset($_POST['btn-save']))
     </tr>
 	<tr>
 	<td><input type="text" name="email_add" placeholder="Email Address" required /></td>
-	</tr>
-	<tr>
-	<td><input type="text" name="age" placeholder="Age" required /></td>
 	</tr>
 	<tr>
 	<input type="text" name="gender" placeholder="Gender" required /></td>

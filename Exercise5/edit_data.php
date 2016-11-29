@@ -13,14 +13,13 @@
 		$last_name = $_POST['last_name'];
 		$city_name = $_POST['city_name'];
 		$email_add = $_POST['email_add'];
-		$age       = $_POST['age'];
-		$gender    = $_POST['gender'];
+		$gender_name = $_POST['gender_name'];
 		$nick_name = $_POST['nick_name'];
 		// variables for input data
 
 		// sql query for update data into database
 		$sql_query = "UPDATE users SET first_name = '$first_name' , last_name = '$last_name' , user_city = '$city_name'  email_add = '$email_add'
-		   age = '$age' , gender = '$gender' , nick_name = '$nick_name' WHERE user_id=".$_GET['edit_id'];
+		 , gender_name = '$gender_name' , nick_name = '$nick_name' WHERE user_id=".$_GET['edit_id'];
 		// sql query for update data into database
 		 echo $sql_query;
 		// sql query execution function
@@ -108,12 +107,13 @@
     
 							
 								<input type="text" name="city_name" placeholder="City place" value="<?php echo $fetched_row['user_city']; ?>" /></br></br>
+								
 	
 	                            <input type="text" name="email_add" placeholder="Email Address" value="<?php echo $fetched_row['email_add']; ?>" /></br></br>
 								
-								<input type="text" name="age" placeholder="Age" value="<?php echo $fetched_row['a']; ?>" /></br></br>
 								
-								<input type="text" name="gender" placeholder="Gender" value="<?php echo $fetched_row['gender']; ?>" /></br></br>
+								<input type="text" name="gender_name" placeholder="Gender" value="<?php echo $fetched_row['gender_name']; ?>" /></br></br>
+								
 								
 								<input type="text" name="nick_name" placeholder="Nick name" value="<?php echo $fetched_row['nick_name']; ?>" /></br></br>
 							<table align="center">
