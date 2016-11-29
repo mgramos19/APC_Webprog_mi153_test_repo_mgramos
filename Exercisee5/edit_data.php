@@ -111,11 +111,12 @@
 	
 	                            <input type="text" name="email_add" placeholder="Email Address" value="<?php echo $fetched_row['email_add']; ?>" /></br></br>
 								
-								<input type="text" name="age" placeholder="Age" value="<?php echo $fetched_row['a']; ?>" /></br></br>
+								<input type="text" name="age" placeholder="Age" value="<?php echo $fetched_row['age']; ?>" /></br></br>
 								
 								<input type="text" name="gender" placeholder="Gender" value="<?php echo $fetched_row['gender']; ?>" /></br></br>
 								
 								<input type="text" name="nick_name" placeholder="Nick name" value="<?php echo $fetched_row['nick_name']; ?>" /></br></br>
+								
 							<table align="center">
 								<td>								
 								<button type="submit" name="btn-update"><strong>UPDATE</strong></button>

@@ -93,7 +93,11 @@
 					<td><?php echo $row[1]; ?></td>
 					<td><?php echo $row[2]; ?></td>
 					<td><?php echo $row[3]; ?></td>
-					<td align="center"><a href="javascript:edt_id('<?php echo $row[0]; ?>')">EDIT</a></td>
+					<td><?php echo $row[4]; ?></td>
+					<td><?php echo $row[5]; ?></td>
+					<td><?php echo $row[6]; ?></td>
+					<td><?php echo $row[7]; ?></td>
+					<td align="center"><a href="javascript:edt_id('<?php echo $row[0; ?>')">EDIT</a></td>
 					<td align="center"><a href="javascript:delete_id('<?php echo $row[0]; ?>')">DELETE</a></td>
 					</tr>
 				<?php

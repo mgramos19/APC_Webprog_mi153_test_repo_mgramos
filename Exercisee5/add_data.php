@@ -69,10 +69,10 @@ if(isset($_POST['btn-save']))
 	<td><input type="text" name="age" placeholder="Age" required /></td>
 	</tr>
 	<tr>
-	<input type="text" name="gender" placeholder="Gender" required /></td>
+	<td><input type="text" name="gender" placeholder="Gender" required /></td>
 	</tr>
 	<tr>
-	<input type="text" name="nick_name" placeholder="Nick name" required /></td>
+	<td><input type="text" name="nick_name" placeholder="Nick name" required /></td>
 	</tr>
 	<tr>
     <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
